@@ -1,0 +1,126 @@
+.container {
+	width: 992px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.main-header {
+	height: 682px;
+	background: url("../img/header-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.header-top {
+	height: 55px;
+	padding-top: 27px;
+	display: table;
+	margin-bottom: 182px;
+}
+
+.header-logo {
+	display: inline-block;
+}
+
+.header-navigation {
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 68px;
+}
+
+.header-navigation li {
+	display: inline-block;
+	margin-right: 29px;
+}
+
+.header-navigation a {
+	text-decoration: none;
+	color: #c1daf1;
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	transition: 0.2s;
+}
+
+.header-navigation a:hover {
+	color: #ffffff;
+	transition: 0.2s;
+}
+
+.header-phone {
+	width: 155px;
+	position: absolute;
+	top: 46px;
+	right: 0px;
+}
+
+.phone-icon {
+	width: 15px;
+	height: 16px;
+	margin-right: 17px;
+	background: url("../img/phone-icon.png");
+	float: left;
+}
+
+.header-phone p {
+	color: #c1daf1;
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 15px;
+	font-weight: 600;	
+}
+
+.header-content h1 {
+	color: #ffffff;
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 35px;
+	font-weight: 700;
+	line-height: 50px;
+	margin-bottom: 52px;
+}
+
+.header-btn {
+	display: inline-block;
+	width: 170px;
+	height: 50px;
+	border-radius: 3px;
+	background-color: #1f6ca0;
+	border: none;
+	color: #ffffff;
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	margin-right: 30px;
+}
+
+.header-watch {
+	display: inline-block;
+}
+
+.watch-icon {
+	width: 23px;
+	height: 23px;
+	background: url("../img/watch-icon.png");
+	margin-right: 12px;
+	float: left;
+}
+
+.header-watch a {
+	text-decoration: none;
+	color: #ffffff;
+	font-family: "Proxima Nova", sans-serif;
+	font-size: 15px;
+	border-bottom: 1px solid #c1daf1;
+}
+
+.header-laptop {
+	width: 836px;
+	height: 441px;
+	background: url("../img/laptop-image.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+	top: 230px;
+	right: -70px;
+}
