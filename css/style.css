@@ -70,6 +70,10 @@
 	font-weight: 600;	
 }
 
+.header-content {
+	padding-bottom: 216px;
+}
+
 .header-content h1 {
 	color: #ffffff;
 	font-family: "Proxima Nova", sans-serif;
@@ -91,7 +95,6 @@
 	font-size: 16px;
 	font-weight: 700;
 	margin-right: 30px;
-	margin-bottom: 216px;
 }
 
 .header-watch {
