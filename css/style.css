@@ -4,37 +4,36 @@
 	position: relative;
 }
 
-.main-header {
-	
+header {
 	background: url("../img/header-bg.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
 
-.header-top {
+.header__top {
 	height: 55px;
 	padding-top: 27px;
 	display: table;
 	margin-bottom: 182px;
 }
 
-.header-logo {
+.logo {
 	display: inline-block;
 }
 
-.header-navigation {
+.navigation {
 	display: table-cell;
 	vertical-align: middle;
 	padding-left: 68px;
 }
 
-.header-navigation li {
+.navigation li {
 	display: inline-block;
 	margin-right: 29px;
 }
 
-.header-navigation a {
+.navigation a {
 	text-decoration: none;
 	color: #c1daf1;
 	font-family: "Proxima Nova", sans-serif;
@@ -43,19 +42,19 @@
 	transition: 0.2s;
 }
 
-.header-navigation a:hover {
+.navigation a:hover {
 	color: #ffffff;
 	transition: 0.2s;
 }
 
-.header-phone {
+.phone {
 	width: 156px;
 	position: absolute;
 	top: 46px;
 	right: 0px;
 }
 
-.phone-icon {
+.phone__icon {
 	width: 15px;
 	height: 16px;
 	margin-right: 17px;
@@ -63,18 +62,18 @@
 	float: left;
 }
 
-.header-phone p {
+.phone p {
 	color: #c1daf1;
 	font-family: "Proxima Nova", sans-serif;
 	font-size: 15px;
 	font-weight: 600;	
 }
 
-.header-content {
+.header__content {
 	padding-bottom: 216px;
 }
 
-.header-content h1 {
+.header__content h1 {
 	color: #ffffff;
 	font-family: "Proxima Nova", sans-serif;
 	font-size: 35px;
@@ -83,7 +82,7 @@
 	margin-bottom: 52px;
 }
 
-.header-btn {
+.btn {
 	display: inline-block;
 	width: 170px;
 	height: 50px;
@@ -97,11 +96,11 @@
 	margin-right: 30px;
 }
 
-.header-watch {
+.watch {
 	display: inline-block;
 }
 
-.watch-icon {
+.watch__icon {
 	width: 23px;
 	height: 23px;
 	background: url("../img/watch-icon.png");
@@ -109,7 +108,7 @@
 	float: left;
 }
 
-.header-watch a {
+.watch a {
 	text-decoration: none;
 	color: #ffffff;
 	font-family: "Proxima Nova", sans-serif;
@@ -117,7 +116,7 @@
 	border-bottom: 1px solid #c1daf1;
 }
 
-.header-laptop {
+.header__laptop {
 	width: 836px;
 	height: 441px;
 	background: url("../img/laptop-image.png");
