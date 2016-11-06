@@ -28,12 +28,12 @@ header {
 	padding-left: 68px;
 }
 
-.navigation li {
+.navigation .nav__item {
 	display: inline-block;
 	margin-right: 29px;
 }
 
-.navigation a {
+.navigation .nav__link {
 	text-decoration: none;
 	color: #c1daf1;
 	font-family: "Proxima Nova", sans-serif;
@@ -42,7 +42,7 @@ header {
 	transition: 0.2s;
 }
 
-.navigation a:hover {
+.navigation .nav__link:hover {
 	color: #ffffff;
 	transition: 0.2s;
 }
@@ -62,7 +62,7 @@ header {
 	float: left;
 }
 
-.phone p {
+.phone .phone__number {
 	color: #c1daf1;
 	font-family: "Proxima Nova", sans-serif;
 	font-size: 15px;
@@ -71,9 +71,11 @@ header {
 
 .header__content {
 	padding-bottom: 216px;
+	position: relative;
+	z-index: 100;
 }
 
-.header__content h1 {
+.header__title {
 	color: #ffffff;
 	font-family: "Proxima Nova", sans-serif;
 	font-size: 35px;
@@ -100,7 +102,7 @@ header {
 	display: inline-block;
 }
 
-.watch__icon {
+.watch-icon {
 	width: 23px;
 	height: 23px;
 	background: url("../img/watch-icon.png");
@@ -108,7 +110,7 @@ header {
 	float: left;
 }
 
-.watch a {
+.watch__link {
 	text-decoration: none;
 	color: #ffffff;
 	font-family: "Proxima Nova", sans-serif;
